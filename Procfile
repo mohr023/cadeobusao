@@ -1,1 +1,1 @@
-web: gunicorn cadeobusao.wsgi
+web: gunicorn wsgi
