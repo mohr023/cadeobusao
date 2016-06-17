@@ -52,7 +52,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'cadeobusao.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
