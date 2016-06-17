@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from cadeobusao.core import views
+from core import views
 
 urlpatterns = [
     url(r'^posicoes', views.PosicoesView.as_view()),
