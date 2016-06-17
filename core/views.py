@@ -1,5 +1,5 @@
-from cadeobusao.core.models import PosicaoBusao, Linha
-from cadeobusao.core.serializers import LinhaSerializer, PosicaoBusaoSerializer
+from core.models import PosicaoBusao, Linha
+from core.serializers import LinhaSerializer, PosicaoBusaoSerializer
 from rest_framework import generics
 
 

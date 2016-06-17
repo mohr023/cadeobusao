@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from cadeobusao.core.models import PosicaoBusao, Linha
+from core.models import PosicaoBusao, Linha
 
 class LinhaSerializer(serializers.ModelSerializer):
     class Meta:
