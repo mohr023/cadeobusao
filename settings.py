@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cadeobusao.core',
+    'core',
     'rest_framework'
 ]
 
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'cadeobusao.wsgi'
+WSGI_APPLICATION = 'wsgi'
 
 
 # Database
